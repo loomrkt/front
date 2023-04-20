@@ -1,0 +1,42 @@
+body {
+  overflow: hidden;
+}
+.imgJoueurDetail {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px #fd2a40 solid;
+}
+.fixed-col {
+  position: sticky;
+  left: 0;
+  background-color: #f9f9f9 !important;
+  z-index: 1;
+}
+/* Personnalisation de la barre de défilement horizontale */
+.fixed-col::-webkit-scrollbar {
+  width: 8px;
+  background-color: #f9f9f9;
+}
+
+.fixed-col::-webkit-scrollbar-thumb {
+  background-color: #999999;
+  border-radius: 4px;
+}
+
+.fixed-col::-webkit-scrollbar-thumb:hover {
+  background-color: #777777;
+}
+
+.fixed-col::-webkit-scrollbar-thumb:active {
+  background-color: #555555;
+}
+
+.fixed-col::-webkit-scrollbar-thumb:vertical {
+  display: none;
+}
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}

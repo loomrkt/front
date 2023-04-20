@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body,
+.conteneur {
+  width: 100%;
+  height: 100%;
+}
+body {
+  background: rgb(255, 239, 185);
+}
+.navbar {
+  z-index: 1;
+  --bs-navbar-toggler-focus-width: 0rem;
+}
+.navbar-toggler {
+  border: 0 !important;
+}
+.scrolling-wrapper {
+  overflow-x: auto;
+}
+body {
+  background: url(../assets/fond.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.bg-m {
+  background-color: #fff !important;
+}
+.bg-m2 {
+  background-color: #fd2a40 !important;
+}
+@font-face {
+  font-family: "font-1";
+  src: url(../font/digital-7.ttf);
+}
+.font-1 {
+  font-family: "font-1";
+}

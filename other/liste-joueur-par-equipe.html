@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/dataTables.bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/general.css" />
+    <link rel="stylesheet" href="../css/liste-joueur-par-equipe.css" />
+    <script src="../js/bootstrap.min.js" defer></script>
+    <script src="../js/dataTables.bootstrap.min.js" defer></script>
+    <title>Mibala Tournament</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-white">
+      <div class="container-fluid">
+        <a
+          class="navbar-brand text-white d-flex align-items-center"
+          href="index.html"
+        >
+          <img
+            src="../assets/logo.png"
+            alt="Logo"
+            width="250"
+            height="75"
+            class="d-inline-block align-text-center justify-content-center"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="48"
+            viewBox="0 96 960 960"
+            width="48"
+          >
+            <path
+              d="M150 816q-12.75 0-21.375-8.675-8.625-8.676-8.625-21.5 0-12.825 8.625-21.325T150 756h660q12.75 0 21.375 8.675 8.625 8.676 8.625 21.5 0 12.825-8.625 21.325T810 816H150Zm0-210q-12.75 0-21.375-8.675-8.625-8.676-8.625-21.5 0-12.825 8.625-21.325T150 546h660q12.75 0 21.375 8.675 8.625 8.676 8.625 21.5 0 12.825-8.625 21.325T810 606H150Zm0-210q-12.75 0-21.375-8.675-8.625-8.676-8.625-21.5 0-12.825 8.625-21.325T150 336h660q12.75 0 21.375 8.675 8.625 8.676 8.625 21.5 0 12.825-8.625 21.325T810 396H150Z"
+              fill="#ffffff"
+            />
+          </svg>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="mx-auto"></div>
+          <div class="navbar-nav">
+            <a class="nav-link ms-3 ms-0 text-white" href="../index.html"
+              >Accueil</a
+            >
+            <a
+              class="nav-link ms-3 ms-0 text-white"
+              href="Liste-des-joueur.html"
+              >Liste des joueur</a
+            >
+            <a
+              class="nav-link ms-3 ms-0 text-white"
+              href="Liste-des-equipe.html"
+              >Liste des equipes</a
+            >
+            <a class="nav-link ms-3 ms-0 text-white" href="classement.html"
+              >Classement</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+    <h4 class="text-center my-5 text-white">Liste des joueurs par equipes</h4>
+    <div style="overflow-x: auto">
+      <table
+        id="dtHorizontalExample"
+        class="table table-striped table-bordered table-sm mx-3"
+        cellspacing="0"
+        width="100%"
+      >
+        <tr class="bg-m2">
+          <th scope="col" class="fixed-col text-nowrap">Nom</th>
+          <th scope="col" class="text-nowrap text-white">PTS</th>
+          <th scope="col" class="text-nowrap text-white">TR</th>
+          <th scope="col" class="text-nowrap text-white">TTENT</th>
+          <th scope="col" class="text-nowrap text-white">3PTS R</th>
+          <th scope="col" class="text-nowrap text-white">3PTS T</th>
+          <th scope="col" class="text-nowrap text-white">Assist</th>
+          <th scope="col" class="text-nowrap text-white">Assist</th>
+          <th scope="col" class="text-nowrap text-white">Assist</th>
+          <th scope="col" class="text-nowrap text-white">Assist</th>
+          <th scope="col" class="text-nowrap text-white">Assist</th>
+        </tr>
+        <tr class="text-white">
+          <th scope="row" class="fixed-col text-nowrap text-dark">John Doe</th>
+          <td>23</td>
+          <td>32</td>
+          <td>21</td>
+          <td>21</td>
+          <td>21</td>
+          <td>21</td>
+          <td>21</td>
+          <td>21</td>
+          <td>21</td>
+          <td>21</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

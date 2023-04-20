@@ -1,0 +1,13 @@
+.imgEquipe {
+  width: 50px;
+}
+.centered-cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.centered-content {
+  text-align: center;
+}
